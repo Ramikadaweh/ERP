@@ -1,0 +1,146 @@
+#reports {
+  min-height: 80vh;
+  height: auto;
+  background-color: #090920;
+  color: #fff;
+}
+
+#reports h1 {
+  padding-top: 2rem;
+  margin-bottom: 100px;
+  margin-top: 60px;
+  margin-left: 10vw;
+}
+
+.reports-wrapper {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.report-card:hover{
+  background-color: #2a5aa1;
+  transition: ease 0.5s;
+}
+.report-card {
+  margin: 20px;
+  padding: 20px;
+  height: 280px;
+  width: 300px;
+  background-color: #618ccd;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  transition: ease 0.3s;
+  margin-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Report  */
+
+#report {
+  padding: 15px;
+  position: relative;
+  height: 100vh;
+  background-color: #090920;
+  color: #fff;
+}
+#report h1 {
+  margin: 30px;
+}
+
+#report form {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#report h2 {
+  margin: 30px;
+}
+#report select {
+  padding: 5px 15px;
+  border-radius: 5px;
+  outline: none;
+  background-color: transparent;
+  color: #fff;
+}
+#report select option{
+  color: #000;
+}
+#report .second-conatiner label {
+  display: flex;
+  flex-direction: column;
+}
+
+#report .rep-emp {
+  display: block;
+  bottom: 50px;
+  right: 30px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  gap: 10px;
+  margin-top: 20px
+}
+#rep-employee {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  background-color: transparent;
+  width: fit-content;
+  height: 60px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  gap: 15px;
+}
+#rep-employee img {
+  width: 50px;
+}
+#report a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#report a:hover {
+  color: rgb(67, 172, 224);
+}
+.rep-emp h3:hover {
+  color: rgb(67, 172, 224);
+}
+#report a img {
+  width: 30px;
+}
+
+#report hr {
+  margin-top: 20px;
+}
+
+.chart-res {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+    #report form {
+        flex-direction: column;
+    }
+    #report .rep-emp {
+      position: relative;
+      bottom: 0;
+      right: 0;
+      margin-top: 20px;
+    }
+
+    .recharts-surface{
+      width: 80vw;
+      height: 300px;
+    }
+ }

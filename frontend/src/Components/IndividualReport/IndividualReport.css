@@ -1,0 +1,8 @@
+.recharts-tooltip-wrapper .recharts-tooltip-label {
+  color: #000;
+}
+@media (max-width: 768px) {
+  .recharts-wrapper {
+    overflow: auto;
+  }
+}

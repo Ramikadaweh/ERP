@@ -1,0 +1,77 @@
+
+.card_section {
+    width: 35vh;
+    padding: 15px;
+   
+    margin-top: 1rem;
+    color: oldlace;
+    border-radius: 30px;
+    min-height: 20vh;
+    font-size: x-small;
+}
+.card_section h1 {
+    font-size: 2.3vh;
+   
+}
+
+.card_section {
+    font-size: smaller;
+}
+
+.card_employee {
+    background-color: #3940D8;  
+        width: 37vh;
+
+    padding-left: 5px; 
+    padding-top: 20px;
+    /* background-image: linear-gradient(315deg ,  #b4a7a7 0, #B82381 0%,  #3940D8 100%);   */ 
+}
+.card_team {
+    background-color: #B82381;
+    width: 30vh;
+}
+
+.card_project {
+    background-color: #9E3DBA;
+}
+
+.employeeImage {
+    width: 5vh;
+    height: 5vh;
+    border-radius: 50%;
+}
+
+.information {
+    font-size: 1.7vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* margin-left: 4vh; */
+    line-height: 3vh;
+}
+/* .employee_section .information{
+
+    margin-left: 1vh;
+} */
+.header :first-child{
+    margin-left: 10px;
+}
+.header :last-child{
+    margin-left: 5px;
+}
+
+.employee_section .header {
+    display: flex;
+    align-items: center;
+}
+.employee_role {
+    margin-top: 10px;
+    margin-left: 6vh;
+}
+
+.card_employee h1
+/* .card_employee p { */
+
+  {  margin-left: 10px;
+    margin-bottom: 1vh;
+}

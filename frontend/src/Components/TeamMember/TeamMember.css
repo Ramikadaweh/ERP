@@ -1,0 +1,24 @@
+.membercard img{
+    width:10vw;
+    border-radius:50%;
+}
+
+.membercard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3%;
+    padding-top: 1%;
+    gap: 20px;
+    width:  200px;
+    border-radius: 20px;
+    background-color: #3940d8;
+}
+@media(max-width:600px){
+   .membercard{
+       height: 150px;
+   }
+   .membercard img{
+    width:30vw;
+}
+}

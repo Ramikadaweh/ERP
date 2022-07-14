@@ -1,0 +1,9 @@
+.project_member{
+    width: 200px;
+    height: 80px;
+    border-radius: 20px;
+    background-color: #9E3DBA;
+}
+.project_member p{
+    padding: 5%;
+}

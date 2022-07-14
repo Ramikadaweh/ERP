@@ -1,0 +1,35 @@
+
+ #emp_kpi_item .kpi_item {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-bottom: 20px;
+}
+#emp_kpi_item .kpi_percentage {
+  margin-bottom: 20px;
+  padding-top: 0;
+}
+#emp_kpi_item .deleteIcon img {
+  width: 5vh;
+  height: 5vh;
+}
+#emp_kpi_item .deleteIcon{
+margin-top: 1px;
+}
+#emp_kpi_item .kpi_item{
+    position: relative;
+}
+#emp_kpi_item .kpi_item p {
+    position: absolute;
+    top: 38%;
+    bottom: 50%;
+    font-size: 32px;
+}
+
+#emp_kpi_item {
+  transition: all 2s ease 0s;
+}
+

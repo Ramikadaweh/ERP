@@ -1,0 +1,51 @@
+#kpi_page .Kcard_section {
+  /* width: 25vh; */
+  /* max-width: 35vh; */
+  /* min-height: 10vh; */
+  padding: 15px 25px 15px 15px;
+  margin-top: 1rem;
+  color: oldlace;
+  border-radius: 20px;
+}
+
+#kpi_page .skills-icon {
+  max-width: 40px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5px;
+
+}
+/* 
+#kpi_page svg {
+  margin-right: 5px;
+  height: 100%;
+  width: 20px;
+} */
+#kpi_page .Kcard_section h1 {
+  font-size: medium;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#kpi_page .Kcard_section {
+  font-size: smaller;
+}
+#kpi_page .Kcard_employee {
+  background-color: #3940d8;
+}
+#kpi_page .Kcard_kpi {
+  background-color: #b82381;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#kpi_page .Kcard_project {
+  background-color: #9e3dba;
+}
+@media screen and (max-width: 664px) {
+  #kpi_page .Kcard_section {
+    font-size: x-small;
+  }
+}

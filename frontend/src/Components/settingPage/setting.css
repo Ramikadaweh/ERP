@@ -1,0 +1,227 @@
+body {
+  margin: 0;
+}
+
+.setting_page {
+  display: flex;
+  margin: 10px;
+}
+.editAdmin_btn_div{
+  width: 400px;
+  margin-top: 10px;
+margin-bottom: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+.editAdmin_btn{
+  width: 60px;
+  padding: 10px;
+  background-color: #A398AE;
+  background-image: linear-gradient(
+    to right,
+    #b993d6 0%,
+    #8ca6db 51%,
+    #b993d6 100%
+  );
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 8px #eee;
+  border-radius: 30px;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid white;
+
+}
+.setting_page input{
+  border: none;
+  border-bottom: #A398AE solid 2px;
+  color: white;
+}
+.first_part {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  
+  flex-basis: 28%;
+  margin-left: 11%;
+  margin-right: 5%;
+  gap: 5%;
+}
+.setting_page .home{
+  position: absolute;
+ width:60px;
+ margin-top:8% ;
+}
+.first_part img {
+  width: 140px;
+  animation: rainbow 6s linear infinite;
+  transition: 1s ease-out;
+}
+.second {
+  position: relative;
+  padding-left: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-basis: 50%;
+  width: 100%;
+  gap: 15px;
+  border-left: 1px solid #ffffff;
+}
+.second .kpi-edit-btn{
+  position: absolute;
+  right: 2%;
+  top:0%;
+  width: 5%;
+
+}
+.setting_form {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  padding: 10px;
+  gap: 5px;
+  border-bottom: 1px solid #ffffff;
+}
+
+#admin_form {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  padding: 10px;
+  gap: 5px;
+  border-bottom: 1px solid #ffffff;
+}
+#admin_form>.savcan{
+  display: flex;
+  gap:10%;
+ 
+}
+#admin_form .save{
+  background-color: #A398AE;
+  width:6vw;
+  height: 3vw;
+  margin-left: 10%;
+  border-radius: 15px;
+}
+#admin_form .cancel{
+  background-color: #A398AE;
+  width:6vw;
+  height: 3vw;
+  margin-left: 40%;
+  border-radius: 15px;
+}
+.add_admin img {
+  width: 3vw;
+  cursor: pointer;
+}
+.add_admin {
+  display: flex;
+  justify-content: space-between;
+}
+.second input {
+  width: 400px;
+  height: 30px;
+  background-color: #090920;
+}
+.second h3 {
+  margin: 5%;
+}
+.save_admin {
+  width: 50%;
+  font-size: large;
+  color: blue;
+}
+.addmin_member {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10%;
+  margin: 5%;
+}
+.addmin_member div{
+  margin:1%;
+}
+.addmin_member div {
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+}
+.addmin_member img {
+  width: 30px;
+  margin: auto;
+  cursor: pointer;
+}
+.add_role {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.add_role ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 25px;
+}
+
+.add_role > form {
+  display: flex;
+}
+.add_role img {
+  width: 30px;
+  cursor: pointer;
+}
+.minus_role{
+   height: 20px;
+}
+@keyframes rainbow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+@media (max-width: 600px) {
+  .setting_page {
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+  }
+  .second input {
+    width: 90%;
+  }
+  .second {
+    border: none;
+    margin-left: 2%;
+  }
+  .first_part {
+    width: 90%;
+    gap: 15px;
+  }
+  .editAdmin_btn_div{
+    width: 90%;
+    gap: 15px; 
+  }
+  .first_part img {
+    width: 70px;
+  }
+  .add_admin img {
+    width: 50px;
+  } 
+  .add_admin a {
+    width: 20%;
+  }
+  #admin_form .save{
+       width: 15vw;
+       height: 6vw;
+  }
+  #admin_form .cancel{
+    width: 15vw;
+    height: 6vw;
+}
+
+}

@@ -1,0 +1,173 @@
+body {
+  background-color: #090920;
+  color: white;
+}
+.home_page {
+  display: flex;
+  width: 100%;
+}
+.home_page p {
+  font-size: small;
+  font-family: sans-serif;
+  margin: 10px;
+}
+.setimg {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  width: 80px;
+  transition:  0.3s ease-out;
+}
+.setimg:hover {
+  width: 90px;
+}
+.welcome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 2vw;
+  flex-basis: 40%;
+  margin: 5%;
+}
+
+
+.factor_card {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex-basis: 60%;
+  margin-top: 5%;
+  gap: 15px;
+}
+.factor_card a{
+  color: white;
+  text-decoration: none;
+}
+.factor_card div{
+  border-radius: 25px;
+  gap: 15px;
+  flex-wrap: wrap;
+  
+}
+.factor_card div div:hover{
+  opacity: 80%;
+}
+.emtea {
+  display: flex;
+  gap: 5%;
+  
+}
+.teamms {
+  background-color: #b82381;
+}
+.home_page .employee {
+  background-color: #3940d8;
+ 
+}
+.prooo {
+  background-color: #9e3dba;
+}
+.kp {
+  background-color: #618ccd;
+}
+.prokp {
+  display: flex;
+  gap: 5%;
+}
+.repset{
+  display: flex;
+  
+}
+.rep{
+  background-color: #b82381;
+}
+
+.settBtn {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 70px;
+  height: 30px;
+  background: #618ccd;
+}
+.out{
+  position: absolute;
+  top: 10%;
+  left: 30%;
+  width:80px;
+  transition:  0.3s ease-out;
+}
+.out:hover{
+  width:90px;
+}
+@media (max-width: 1355px){
+  .home_page {
+    flex-direction: column;
+    align-items: center;
+    width:100%
+  }
+  .welcome{
+    font-size: 2.5vw;
+    margin-top: 60px;
+  }
+  .out{
+    left: 85%;
+    width:60px;
+    top:3%;
+  }
+  .setimg{
+    top:3%;
+    width:60px;
+  }
+  .out:hover ,.setimg:hover{
+    width:70px;
+  }
+}
+@media (max-width: 730px) {
+  .home_page {
+    flex-direction: column;
+    align-items: center;
+    width:100%
+  }
+  .settBtn {
+    position: relative;
+  }
+  .setimg {
+    left:10%;
+    top:2%;
+    width:50px
+  }
+  .welcome{
+    font-size: 2.5vw;
+    margin-top: 60px;
+  }
+  .factor_card{
+    padding: 5%;
+    width: 100%;
+  }
+  .factor_card div{
+   justify-content: center  ;
+    
+  }
+  .emtea{
+    gap:2%;
+  }
+  .prokp{
+    gap:2%;
+  }
+  .repset{
+   margin-left: 3%;
+  }
+
+  .out{
+    left:80%;
+    top:2%;
+    width:50px
+  }
+  .out:hover ,.setimg:hover{
+    width:60px;
+  }
+ 
+}

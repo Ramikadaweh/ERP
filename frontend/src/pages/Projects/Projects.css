@@ -1,0 +1,223 @@
+.projects_section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 30px;
+  gap: 10px;
+}
+
+.add-project {
+  text-align: center;
+  overflow: hidden;
+  transition: max-height 0.7s ease-out;
+  height: auto;
+  max-height: 600px;
+}
+.add-project form {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.add-project form label {
+  color: #fff;
+}
+.add-project form select {
+  background-color: transparent;
+  color: #fff;
+  outline: none;
+}
+.add-project select option {
+  color: #000;
+}
+.add-project button {
+  margin-top: 15px;
+padding: 10px;
+  background-image: linear-gradient(
+    to right,
+    #b993d6 0%,
+    #8ca6db 51%,
+    #b993d6 100%
+  );
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 8px #eee;
+  border-radius: 30px;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid white;
+}
+
+.add-project form input,
+.add-project form textarea {
+  margin: 20px;
+  width: 200px;
+  border: none;
+  border-bottom: #a398ae solid 2px;
+  color: white;
+  background: transparent;
+}
+.add-project hr,
+#project hr {
+  width: 80%;
+  margin: 30px auto auto auto;
+}
+
+.add-project-child1 {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+.child1,
+.child2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.toggle-add-project {
+  max-height: 0;
+}
+
+.button-rotate {
+  transform: rotate(45deg);
+  transition: all ease 0.5s;
+}
+
+.add_project_container {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.add_project_container .project_message {
+  color: #fff;
+  position: absolute;
+  right: 10%;
+}
+
+#project {
+  color: #fff;
+  padding: 15px;
+  position: relative;
+}
+#project a img {
+  width: 30px;
+}
+#project a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#project a:hover {
+  color: #46b0e4;
+}
+
+#project .first_container {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0 15vw 0 5vw;
+}
+
+#project .first_container_child1 {
+  width: 50%;
+}
+
+#project .second_container {
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+#project .project_employees {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+#project .delete_project {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  cursor: pointer;
+}
+
+#project .delete_project img {
+  width: 40px;
+}
+
+#project #project_edit_content {
+  width: 40px;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  cursor: pointer;
+  filter: grayscale(0);
+  transition: ease 0.5s;
+}
+#project #project_edit_content:hover {
+  filter: grayscale(30%);
+  transform: scale(1.3);
+  transition: ease 0.5s;
+}
+#project #project_save_content {
+  width: 40px;
+  position: absolute;
+  right: 20px;
+  top: 80px;
+  cursor: pointer;
+  transition: ease 0.5s;
+}
+#project #project_save_content:hover {
+  transform: scale(1.3);
+  transition: ease 0.5s;
+}
+#project input,
+#project textarea {
+  margin: 20px;
+  width: 200px;
+  border: none;
+  border-bottom: #a398ae solid 2px;
+  color: white;
+  background: transparent;
+}
+
+#project .header {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .add_project_container {
+    flex-direction: column;
+  }
+  .add_project_container button {
+    width: 100px;
+    margin: 15px auto;
+  }
+  .add_project_container .project_message {
+    position: initial;
+    margin: 10px;
+    display: block;
+  }
+
+  #project .first_container_child1 {
+    width: initial;
+  }
+}

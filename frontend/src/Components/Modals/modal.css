@@ -1,0 +1,22 @@
+
+
+.react-confirm-alert-overlay{
+    background-color: transparent;
+}
+
+
+.react-confirm-alert-body {
+  width:40vh;
+  background-color: #3940D8;
+    color: whitesmoke;
+    /* opacity: 0.7; */
+   
+    font-size: 12px;
+    
+}
+.react-confirm-alert-button-group > button {
+  background-image: linear-gradient( to right, #b993d6 0%, #8ca6db 51%, #b993d6 100% );
+}
+.react-confirm-alert-button-group  {
+  justify-content: center;
+    }

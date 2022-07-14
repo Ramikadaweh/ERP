@@ -1,0 +1,496 @@
+.employee_section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 90%;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  gap: 20px 20px;
+}
+.oneEmployee {
+  color: white;
+  padding-bottom: 20px;
+  width: 90%;
+  margin: auto;
+  padding-top: 20px;
+}
+.employee {
+  color: white;
+}
+
+.editIcon div {
+  position: relative;
+}
+.editIcon div .kpi-edit-btn {
+  height: 3rem;
+  top: 0px;
+  right: 0px;
+}
+.backbtn {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+.oneEmployee .backbtn .back {
+  margin-left: 10px;
+  font-size: 3vh;
+}
+
+.profileInformation {
+  display: flex;
+
+  margin-bottom: 8vh;
+}
+.profile {
+  width: 50%;
+  position: relative;
+  /* margin-right: 5%; */
+  border-right: 1px solid white;
+}
+.currentProject {
+  width: 50%;
+  padding-left: 5%;
+}
+.profileInformation img {
+  border-radius: 50%;
+  width: 20vh;
+  height: 20vh;
+}
+.oneEmployee h1 {
+  margin-bottom: 10px;
+  font-size: 1.3rem;
+}
+.deleteIcon .editIcon svg {
+  cursor: pointer;
+}
+.addEmployee {
+  color: #fff;
+  width: 80%;
+  margin: auto;
+  margin-top: 30px;
+  overflow: hidden;
+  height: auto;
+  max-height: 0;
+  transition: max-height 0.5s ease-in;
+ 
+}
+.addEmployee button {
+  padding-inline: 20px;
+  padding: 10px;
+  background-image: linear-gradient(
+    to right,
+    #b993d6 0%,
+    #8ca6db 51%,
+    #b993d6 100%
+  );  
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 8px #eee;
+  border-radius: 30px;
+  display: block;
+  padding: 10px;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid white;
+
+}
+.div_btn_add_employee{
+  display: flex;
+  justify-content: flex-end;
+}
+.addEmployee form .btnDiv {
+  display: flex;
+  justify-content: flex-end;
+}
+.addEmployee input {
+  background-color: transparent;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid white;
+  line-height: 2vh;
+  margin-bottom: 20px;
+  outline: none;
+}
+.edit_btn_hide_div {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 10%;
+}
+.edit_btn_hide {
+  padding: 10px;
+  background-image: linear-gradient(
+    to right,
+    #b993d6 0%,
+    #8ca6db 51%,
+    #b993d6 100%
+  );
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 8px #eee;
+  border-radius: 30px;
+  display: block;
+  padding: 10px;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid white;
+}
+
+.edit_btn_hide:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+/* background-color: ; */
+.addKpi input{
+  margin-right: 20px;
+}
+.addKpi button {
+  padding: 10px;
+  background-image: linear-gradient(
+    to right,
+    #b993d6 0%,
+    #8ca6db 51%,
+    #b993d6 100%
+  );
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 8px #eee;
+  border-radius: 30px;
+  padding: 10px;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid white;
+  margin-bottom: 20px;
+}
+
+.addKpi button:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+  
+.kpi_circul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.profileInformation div form input {
+  background-color: transparent;
+  width: 90%;
+  border: none;
+  border-bottom: 1px solid white;
+  line-height: 2vh;
+  margin-bottom: 20px;
+  outline: none;
+}
+
+.img_container {
+  position: relative;
+  background-color: #a398ae;
+  width: 20vh;
+  height: 20vh;
+  border-radius: 50%;
+}
+.kpi_circul .deleteIcon {
+  margin-top: 0px;
+  text-align: center;
+}
+
+.editIcon div .kpi-edit-btn {
+  height: 3rem;
+  top: 0px;
+  right: 6px;
+}
+.avator {
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.avator .avator_img {
+  width: 20vh;
+  height: 20vh;
+  border-radius: 50%;
+}
+.avator .addnewemp img {
+  width: 5vh;
+  height: 5vh;
+  position: absolute;
+  top: 15vh;
+  left: 15vh;
+}
+.deleteIcon,
+.editIcon div {
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+  align-items: center;
+}
+.profile .deleteIcon,
+.editIcon div {
+  padding-right: 5%;
+}
+.employeeProject div {
+  position: relative;
+}
+.employeeProject div select {
+  min-width: 18vh;
+  position: absolute;
+  right: 23%;
+  border: 1px solid #9e3dba;
+  padding: 5px;
+  padding: 5px 15px;
+  border-radius: 5px;
+  background-color: transparent;
+  color: #fff;
+  border-radius: 5px;
+}
+.employeeProject div select option {
+  color: #000;
+}
+.emp_add_role {
+  min-width: 18vh;
+  position: absolute;
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #9e3dba;
+  padding: 5px;
+  padding: 5px 15px;
+  border-radius: 5px;
+  text-align: center;
+  left: 25%;
+}
+
+.profile .employee_team .deleteIcon {
+  padding-right: 0px;
+}
+.addTeam p,
+.deleteIcon p {
+  margin-right: 10px;
+}
+.editIcon {
+  display: flex;
+  justify-content: space-between;
+}
+
+.employee_team {
+  width: 25%;
+}
+.employeeProject {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  gap: 20px 15px;
+}
+.kpi_edit_pen .kpi-edit-btn{
+  width: 3rem;
+  height: 7rem;
+right: 0px;
+}
+.employee_team{
+background-color: #B82381;
+border-radius: 10px;
+color: white;
+padding: 10px;
+border: solid 1px #B82381;
+padding-top: 20px;
+padding-bottom: 20px;
+cursor: pointer;
+font-size: 2.5vh;
+display: flex;
+justify-content: space-around;
+}
+.addTeam select,
+.Employee_kpi select,
+.kpi_rate_emp,
+.Employee_kpi input {
+  border: 1px solid white;
+  width: 35vh;
+  padding: 5px;
+  padding: 5px 15px;
+  border-radius: 5px;
+  background-color: transparent;
+  color: #fff;
+  /* margin-bottom: 20px; */
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.addTeam select option,
+.Employee_kpi select option {
+  color: #000;
+}
+.addTeam div .addIcon {
+}
+.addTeam {
+}
+.addTeam {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding-right: 10%; */
+  margin-bottom: 30px;
+}
+
+.addTeam img {
+  width: 5vh;
+  height: 5vh;
+  margin-right: 10px;
+}
+.addTeam div {
+  display: flex;
+
+  align-items: center;
+}
+.addTeam {
+  padding-right: 10%;
+}
+
+.addTeam select {
+  width: 35vh;
+}
+.Employee_kpi {
+  border-top: 1px solid white;
+  padding-top: 20px;
+}
+.Employee_kpi input {
+  background-color: transparent;
+  width: 35vh;
+  margin-bottom: 20px;
+}
+.employee_kpi_items {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 20px 20px;
+}
+.profile input,
+.addEmployee input {
+  color: white;
+}
+.deleteIcon img {
+  width: 5vh;
+  height: 5vh;
+}
+.addEmployee h1 {
+  margin-bottom: 30px;
+  width: fit-content;
+}
+.inputchangeImage .addIcon {
+  width: 5vh;
+  height: 5vh;
+  position: absolute;
+  top: 20vh;
+  left: 15vh;
+}
+.input__uploadImage {
+  width: 20vh;
+  background-image: linear-gradient(
+    to right,
+    #b993d6 0%,
+    #8ca6db 51%,
+    #b993d6 100%
+  );
+  color: #fff;
+  border: 1px solid white;
+  padding: 5px;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 8px #eee;
+  border-radius: 30px;
+  /* padding: 5px 15px; */
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
+.kpi_with_edit {
+  position: relative;
+}
+.kpi-edit-evaluation {
+  width: 5vh;
+  height: 5vh;
+  position: absolute;
+  right: 0px;
+  margin-left: 20px;
+  top: 20px;
+}
+@media screen and (max-width: 664px) {
+  .addNewProject {
+    margin: auto;
+    width: 35vh;
+    margin-top: 20px;
+  }
+  .oneEmployee {
+    padding-top: 2.3rem;
+  }
+  .profileInformation {
+    display: block;
+  }
+  .employee_team {
+    width: 100%;
+  }
+  .employee_team div {
+    margin: auto;
+  }
+  .edit_btn_hide_div {
+    padding-right: 0px;
+  }
+  .currentProject {
+    width: 100%;
+    padding-left: 0px;
+  }
+  .kpi_edit_pen .kpi-edit-btn{
+    width: 2rem;
+    height: 7rem;
+  top:-20px;
+  }
+  .editIcon div .kpi-edit-btn {
+    width: 2rem;
+    height: 7rem;
+    top: -5vh;
+  }
+  /* .oneEmployee h1{
+    padding-top: 1rem;
+  } */
+  .profile .deleteIcon,
+  .editIcon div {
+    padding-right: 0px;
+  }
+  .profile {
+    border: none;
+    /* padding-left: 5%; */
+    width: 100%;
+    border-bottom: 1px solid white;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+  .profileInformation div form input {
+    width: 100%;
+  }
+  .addTeam {
+    padding-right: 0px;
+    display: block;
+  }
+  .addTeam select {
+    width: 100%;
+  }
+}

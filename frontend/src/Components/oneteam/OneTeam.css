@@ -1,0 +1,128 @@
+.oneteam{
+    position: relative;
+}
+.pp{
+    font-weight: bold;
+    font-size: 20px;
+}
+.oneteam .header{
+    display: flex;
+    align-items: center;
+}
+/* .oneteam p{
+    font-size: 20px;
+} */
+.team_name{
+    text-align: center;
+    font-size: 25px;
+    width:90%;
+    margin-left: 5%;
+    border-bottom: solid 1px;
+    margin-top: 1%;
+}
+.team_info{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    border-bottom: solid 1px;
+    width:90%;
+    margin-left: 5%;
+    padding: 5%;
+}
+/* .team_info p{
+    margin-left: 5%;
+    margin-top: 2%;
+} */
+.empcard{   
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:5px;
+    margin: 2%;
+}
+.empcard img,.pro_info img {
+    width: 35px;
+    margin: auto;
+    cursor: pointer;
+  }
+
+.prodel form ,.team_info form{
+   display: flex;
+   gap:2%;
+    margin-left: 5%;
+    
+
+}
+.team_info input,.prodel input{
+    width: 80px;
+    height: 30px;
+    background-color: #A398AE;
+    background-image: linear-gradient(
+      to right,
+      #b993d6 0%,
+      #8ca6db 51%,
+      #b993d6 100%
+    );
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 8px #eee;
+    border-radius: 30px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid white;
+   
+}
+.prodel select,.team_info select{
+    width: 40vh;
+    background-color: #090920;
+    color: white;
+}
+.prodel{
+  
+    padding-bottom:10%;
+}
+.pro_info{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 5%;
+    padding-left: 10%;
+}
+.pro_info div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.delete_team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+  
+  }
+  
+  .delete_team img {
+    width: 40px;
+ 
+  }
+  .pro{
+      display: flex;
+      flex-direction: column    ;
+  }
+@media(max-width:600px){
+    .team_info form,.prodel form{
+        display: flex;
+        flex-direction: column;
+        gap: 20PX;
+    }
+}

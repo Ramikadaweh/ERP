@@ -1,0 +1,19 @@
+.triangle1 {
+    position: fixed;
+    bottom: -50px;
+    z-index: -1;
+    right: -50px;
+    border-left: 16vh solid transparent;
+    border-right: 16vh solid transparent;
+    border-bottom: 23vh solid #A398AE;
+}
+
+.triangle2 {
+    position: fixed;
+    bottom: -50px;
+    right: 40px;
+    z-index: -1;
+    border-left: 18vh solid transparent;
+    border-right: 18vh solid transparent;
+    border-bottom: 25vh solid #5F6598;
+}

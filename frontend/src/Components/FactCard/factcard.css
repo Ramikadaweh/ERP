@@ -1,0 +1,12 @@
+
+.employeee {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 10%;
+  padding: 5%;
+  width: 50vh;
+}
+.employeee p {
+  width: 80%;
+}
